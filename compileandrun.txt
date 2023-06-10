@@ -1,1 +1,1 @@
-cmd /c cd $(CURRENT_DIRECTORY) & g++ -std=c++17 $(FILE_NAME) -o $(NAME_PART) & $(NAME_PART).exe & pause
+cmd /c cd $(CURRENT_DIRECTORY) & g++ -std=c++17 -O2 -Wall $(FILE_NAME) -o $(NAME_PART) & $(NAME_PART).exe & pause
