@@ -1,1 +1,5 @@
+----- COMPILAR Y EJECUTAR -----
 cmd /c cd $(CURRENT_DIRECTORY) & g++ -std=c++17 -O2 -Wall $(FILE_NAME) -o $(NAME_PART) & $(NAME_PART).exe & pause
+
+----- SOLO EJECUTAR -----
+cmd /c cd $(CURRENT_DIRECTORY) & $(NAME_PART).exe & pause
